@@ -25,8 +25,9 @@
   <!-- Add your site or application content here -->
   <header>
     <div class="content-wrapper">
-      <a href="#"><img src="" alt ="unplugged logo"></a>
-      <p>Unplugged</p>
+      <a href="#">
+      <img src="tile.png" alt ="unplugged logo">
+    </a>
       <div class ="header-divider"></div>
       <nav>
         <ul>
@@ -40,59 +41,72 @@
   <main>
     <section>
       <div class="hero-area">
-           <img src="img/jake-melara-30679-unsplash.jpg" alt="Woman on bridge">       
+        <div class="content-wrapper">
+           <!--<img src="img/jake-melara-30679-unsplash.jpg" alt="Woman on bridge">-->       
           <p>Retreat from the desk, return refreshed.</p>
+        </div>
       </div>
 
     </section>
 
     <aside>
-      <div class="form-description">
-        <h3>Want to join the next retreat?</h3>
-        <p>Find out when we our holding our next retreat, and how your company or can sign up!</p>
+      <div class="content-wrapper">
+        <div class="form-description">
+          <h3>Want to join the next retreat?</h3>
+          <p>Find out when we our holding our next retreat, and how your company or can sign up!</p>
+        </div>
+        <div class="form">
+          <h3>Find out more</h3>
+          <input type="email" placeholder="name@email.com"> <br>
+          <button class="itinerary">Download Itinerary</button>
+        </div>
       </div>
-      <div class="form">
-        <h3>Find out more</h3>
-        <input type="email" placeholder="name@email.com"> <br>
-        <button class="itinerary">Download Itinerary</button>
-      </div>
-
     </aside>
 
     <section class="features">
-      <h2>Have the work week you always dreamed of -- without the bad wifi.</h2>
-      <article>
-        <p class="tent-icon"></p>
-        <p class="features-text">Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
-      </article>
-      <article>
-          <p class="bed-icon"></p>
-          <p class="features-text">12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 breakout rooms.</p>
-        </article>
-        <article>
+      <div class="content-wrapper">
+        <h2>Have the work week you always dreamed of -- without the bad wifi.</h2>
+        <div class="features-items">
+          <article>
+            <p class="tent-icon"></p>
+            <p class="features-text">Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
+          </article>
+          <article>
+            <p class="bed-icon"></p>
+            <p class="features-text">12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 breakout rooms.</p>
+          </article>
+          <article>
             <p class="utensil-icon"></p>
             <p class="features-text">Private chef team providing on demand meals - just like your team kitchen.</p>
           </article>
           <article>
-              <p class="shoeprint-icon"></p>
-              <p class="features-text">5 outdoor obstacle courses, including private beach 1/2 mile from bungalow.</p>
-            </article>
-            <article>
-                <p class="face-icon"></p>
-                <p class="features-text">Retreat facilitator to manage your day to day activities so you all 
+            <p class="shoeprint-icon"></p>
+            <p class="features-text">5 outdoor obstacle courses, including private beach 1/2 mile from bungalow.</p>
+          </article>
+          <article>
+            <p class="face-icon"></p>
+            <p class="features-text">Retreat facilitator to manage your day to day activities so you all 
                   get a chance to reset.</p>
-              </article>
-              <article>
-                  <p class="wifi-icon"></p>
-                  <p class="features-text">Dedicated computer room for times that you must use wifi.</p>
-                </article>
+          </article>
+          <article>
+            <p class="wifi-icon"></p>
+            <p class="features-text">Dedicated computer room for times that you must use wifi.</p>
+          </article>
+        </div>
+      </div>        
     </section>
+
+
     <section class="reviews">
       <div class="content-wrapper">
         <h2>Be a better team in 5 days, like these</h2>
         <article>
-        <h3>LaCrue Bottling Co.<br>October 2017</h3>
-        <p>This is a paragraph that on the mockup has a bunch of latin words in it, so this is just placeholder text.</p>
+          <div>
+            <h3>LaCrue Bottling Co.<br>October 2017</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>    
         </article>
       </div>
     </section>
@@ -104,13 +118,12 @@
     <div class="content-wrapper">
       <div class ="footer-content">
         <address class="contact">
-          <h3>Contact</h3>
+          <h4>Contact</h4>
           <p>555-555-5555</p>
           <p><a href=mailto:hello@unplugged.com subject="Request for Retreat Information"> hello@unplugged.com </a></p>
-
         </address>
         <div class ="social">
-          <h3>Social</h3>
+          <h4>Social</h4>
           <div class="social-icons">
             <p><a href="https://www.facebook.com" target="_blank">Facebook</a></p>
             <p><a href="https://www.twitter.com" target="_blank">Twitter</a></p>
@@ -124,8 +137,8 @@
       <p>Copyright 2019 &#124; Unplugged</p>
   
     </div>
-
   </footer>
+  
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
